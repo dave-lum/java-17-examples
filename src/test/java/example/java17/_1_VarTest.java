@@ -19,7 +19,7 @@ public class _1_VarTest {
     }
 
     // Try with resources:
-    try (var myFile = new FileOutputStream("/tmp")) {
+    try (var myFile = new FileOutputStream("/tmp/foo.txt")) {
       myFile.write(123);
     }
 
